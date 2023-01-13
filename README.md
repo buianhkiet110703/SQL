@@ -4,6 +4,8 @@
 ![image](https://user-images.githubusercontent.com/110837675/212324274-254a80d4-37a7-4602-bfa8-88298acfa453.png)
 
 # Write query language:
+
+```php
 USE D4E14
 CREATE TABLE KHACHHANG(
     MAKH CHAR(4) primary key,
@@ -436,3 +438,4 @@ FROM (
 		ORDER BY KHACHHANG.DOANHSO DESC
 		) KH
 ORDER BY SL DESC
+```
